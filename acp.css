@@ -1,0 +1,161 @@
+body {
+	background-color: #e0ebed;
+	color: #FFFFFF;
+	margin:30px;
+	font-family:sans-serif;
+	font-size:10pt;
+	background-image: url(images/bg.png);
+	background-repeat: no-repeat;
+}
+a {
+	color: #FFFFFF;
+	text-decoration: none;
+	cursor: pointer;
+}
+a :hover{
+	color: #0099FF;
+	text-decoration: none;
+	cursor: hand;
+}
+#logo {
+	background-image: url(images/header.png);
+	background-repeat: no-repeat;
+	height: 150px;
+	width: 430px;
+	float: left;
+	margin-left:-40px;
+}
+#stats {
+	width: 320px;
+	color: #999;
+	padding-top:5px;
+}
+
+#menu {
+	float: left;
+	width: 33%;
+	padding-left:35px;
+}
+#menu-inner {
+	background-color:#F3F8FB;
+	border:1px solid #DAE3EB;
+	width:320px;
+	color:black;
+}
+#menu-inner a{
+	color:black;
+}
+#menu-inner-inner {
+	background-color:#FFFFFF;
+	border:1px solid #DAE3EB;
+	margin:3px;
+	padding-top:5px;
+	padding-bottom:20px;
+}
+
+#acp-logs {
+	color: #FFFFFF;
+	font-size: 15px;
+	width: 300px;
+}
+
+#work {
+	overflow:auto;
+	height:750px;
+	width:64%;
+	float:right;
+}
+#work-nazov {
+	padding-top: 150px
+}
+#credits {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.eror {color: #FF0000}
+.tip {
+	color: #000000;
+	background-image: url(images/bullet-error.png);
+	background-repeat: no-repeat;
+	margin-top:16px;
+	padding-bottom:10px;
+	padding-left:36px;
+	padding-top:10px;
+	font-family: "Times New Roman", Times, serif;
+	width: 300px;
+	margin: 15px;
+	font-weight:bold;
+}
+.tab_zoznam {
+	overflow: auto;
+	width:700px;
+	border-color:#C5C5C5;
+	border-style:solid;
+	border-width:0 0 1px 1px;
+	font-family:verdana,tahoma,arial;
+	font-size:10px;
+	color:black;
+	background-image:url(images/transp60.png);
+}
+.tab_riadok {
+	background-color:#DFE3E9;
+	/*background-image:url(images/th_back.png);*/
+	border-color:#FFFFFF;
+	border-style:solid;
+	border-width:1px 1px 0 0;
+	font-family:verdana,tahoma,arial;
+	font-size:10px;
+	padding:2px 4px;
+	color: black;
+}
+.tab_nadpis {
+	background-color:#DFE3E9;
+	background-image:url(images/th_back.png);
+	border-color:#FFFFFF;
+	border-style:solid;
+	border-width:1px 1px 0 0;
+	font-family:verdana,tahoma,arial;
+	font-size:10px;
+	padding:2px 4px;
+
+}
+.textarea {
+	padding:15px;
+	/*width:650px;*/
+	overflow: auto;
+	width: 95%; 
+	height: 680px;"
+	border:1px solid #F3F8FB; 
+	font-size: 14px;
+	color: black;
+	text-align: left;
+	background-color: #FFFFFF;
+	background-image: url(images/textarea.png);
+	background-repeat: repeat;
+}
+.menu-system {
+	cursor:pointer;
+	height:82px;
+	margin:0 auto;
+	padding-top:8px;
+	width:300px;
+	padding-left:10px;
+}
+.menu-system-left, .menu-system-right {
+	background-color:#FFFFFF;
+	float:left;
+	left:0;
+	position:relative;
+}
+.menu-system-left {
+	width:95px;
+}
+.menu-system-right {
+	padding-top:10px;
+	width:200px;
+}
+
+.menu-reset , .menu-obsah {
+	display: none;
+}
